@@ -1,0 +1,14 @@
+.section-data {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #29335C;
+}
+
+@media only screen and (max-width: 1024px) {
+    .section-data {
+        flex-direction: column;
+        align-items: center;
+    }
+}

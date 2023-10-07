@@ -1,0 +1,37 @@
+.info{
+    width: 150px;
+    min-height: 50px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.linea {
+    border-right: 2px solid;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .info{
+        min-width: 50px;
+        min-height: 30px;
+        padding-right: 10px;
+        padding-left: 10px;
+        
+    }
+
+    .info h3{
+        font-size: 13px;
+    }
+
+    .info p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .info p {
+        font-size: 6px;
+    }
+}
+
