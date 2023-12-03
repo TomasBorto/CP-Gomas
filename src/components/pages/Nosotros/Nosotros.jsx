@@ -8,7 +8,7 @@ export default function Nosotros() {
         <section id='nosotros' className="nosotros">
             <div className="texto-about">
                 <h1>Nosotros</h1>
-                <p>Nuestra empresa fundada en 1973 en el negocio de la venta de gomas es una historia de éxito y compromiso constante con la calidad, la innovación y la satisfacción del cliente. En nuestros comienzos trabajamos con empresas como Pirelli hasta su permanencia en Argentina.</p>
+                <p>Empresa fundada en 1974 dedicada a la venta y distribución de productos de goma. Historia de éxito y compromiso con la calidad e innovación para la satisfacción del cliente. Fuimos distribuidores  de INDUSTRIAS PIRELLI SAIC hasta su permanencia en la Argentina, a posterior pasamos a formar parte de la distribución de DUNLOP ARGENTINA SA.</p>
                 <a href="#productos"><ButtonHome className="btn" text={"Nuestros Productos"} /></a>
             </div>
             <div className="div-img-us">
