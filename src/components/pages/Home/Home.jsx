@@ -9,7 +9,7 @@ export default function Home(texto) {
             <div className="texto-home">
                 <h1>CP Goma</h1>
                 <p>Somos una empresa con mas de 50 años de experiencia dedicados a la comercializacion de articulos de goma para la industria del automotor y para el hogar.</p>
-                <a href="#contactanos"><ButtonHome className="btn" text={"Contactanos"} /></a>
+                <a href="https://cpgoma.mercadoshops.com.ar/" target='_blank'><ButtonHome className="btn" text={"Ir a la tienda"} /></a>
             </div>
             <div className="div-img">
                 <Gallery />

@@ -12,12 +12,12 @@ export default function Productos() {
         <section id="productos" className="section-product">
               <h1>Nuestros Productos</h1>
               <div className="productos">
-                <Producto img={Burlete} product={"Burletes"}/>
-                <Producto img={CañoGoma} product={"Caños de Goma"}/>
-                <Producto img={CorreaInd} product={"Correas Industriales"}/>
-                <Producto img={PisoGoma} product={"Pisos de Goma"}/>
-                <Producto img={PlanchaGoma} product={"Planchas de Goma"}/>
-                <Producto img={VariosGoma} product={"Productos varios de goma"}/>
+                <Producto altt={"burletes"} img={Burlete} product={"Burletes"}/>
+                <Producto altt={"caños de goma"} img={CañoGoma} product={"Caños de Goma"}/>
+                <Producto altt={"correas industriales"} img={CorreaInd} product={"Correas Industriales"}/>
+                <Producto altt={"pisos de goma"} img={PisoGoma} product={"Pisos de Goma"}/>
+                <Producto altt={"planchas de goma"} img={PlanchaGoma} product={"Planchas de Goma"}/>
+                <Producto altt={"productos de goma"} img={VariosGoma} product={"Productos varios de goma"}/>
               </div>
         </section>
     )
