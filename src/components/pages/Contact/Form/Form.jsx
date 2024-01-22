@@ -74,12 +74,12 @@ export const ContactUs = () => {
 
   return (
     <form className='form' ref={form} onSubmit={sendEmail}>
-      <label><span><FaRegUser/></span>Nombre</label>
+      <label className='flex'><span><FaRegUser/></span>Nombre</label>
       <input onChange={(e) => setName(e.target.value)} value={name} type="text" name="user_name" />
-      <label><span><MdOutlineEmail/></span>Email</label>
+      <label className='flex'><span><MdOutlineEmail/></span>Email</label>
       <input onChange={(e) => setEmail(e.target.value)} value={email} type="email" name="user_email" />
-      <label><span><FaRegMessage/></span>Mensaje</label>
-      <textarea onChange={(e) => setMessage(e.target.value)} value={message} name="message" />
+      <label className='flex'><span><FaRegMessage/></span>Mensaje</label>
+      <textarea className='flex' onChange={(e) => setMessage(e.target.value)} value={message} name="message" />
       <input className='button-form' type="submit" value="Enviar" />
       <ToastContainer />
     </form>

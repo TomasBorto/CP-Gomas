@@ -40,11 +40,7 @@ export function Data2() {
             icon={<FaPlane />}
           />
           <Avatar2 
-            titulo={"Envios Gratis al AMBA"}
-            icon={<MdMoneyOff  />}
-          />
-          <Avatar2 
-            titulo={"Local Fisico"}
+            titulo={"Local A La Calle"}
             icon={<FaShop  />}
           />
       </section>
